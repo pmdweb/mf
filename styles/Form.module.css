@@ -1,0 +1,69 @@
+.paiCadastro {
+  height: 598px;
+  width: 480px;
+}
+.cardCadastro {
+  width: 480px;
+  height: 445px;
+  /* o certo é 421 px  */
+  padding: 0px, 0px, 100px, 0px;
+  gap: 24px;
+  /* background-color: aqua; */
+  margin-left: 65px !important;
+  /* é q ja tem um justify-between no page.js  */
+}
+
+.titulo {
+  font-size: 36px;
+  color: #1e1e1e;
+  width: 416px;
+  height: 42px;
+  line-height: 42.19px;
+}
+
+.subtitulo {
+  font-size: 14px;
+  color: #1e1e1e;
+  width: 400px;
+  height: 14px;
+  line-height: 16.41px;
+  margin-bottom: 16px;
+}
+
+.labelTexto {
+  width: 416px;
+  height: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #1e1e1e;
+}
+
+.inputTexto {
+  width: 416px;
+  height: 42px;
+  padding: 12px 8px 12px 8px;
+  border-radius: 4px;
+  border: 1px;
+  gap: 8px;
+  border-color: #874bf6;
+}
+
+.subtituloInferior {
+  width: 400px;
+  height: 28px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 14.06px;
+}
+
+.botaoCadastro {
+  width: 216px;
+  height: 43px;
+  border-radius: 8px;
+  padding: 12px, 16px, 12px, 16px;
+  row-gap: 8px;
+  color: #ffffff;
+  background-color: #874bf6;
+  margin-top: 30px;
+  margin-left: 90px;
+}
