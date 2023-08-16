@@ -7,11 +7,6 @@ import { CssBaseline } from '@mui/material'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-	title: 'Minha Festa App',
-	description: 'Minha Festa: Ofereça serviços para festas com a gente',
-}
-
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">

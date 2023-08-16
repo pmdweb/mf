@@ -1,4 +1,4 @@
-import config from '@config.local'
+//import config from '@config.local'
 import nodemailer from 'nodemailer';
 
 export default function sendEmail(req, res) {
@@ -7,15 +7,15 @@ export default function sendEmail(req, res) {
 		port: 587,
 		secure: false,
 		auth: {
-			user: config.USERMAIL,
-			pass: config.PASS,
+			user: "email@appmf.teste",
+			pass: "pass",
 		},
 	});
 
 
 	const mailOptions = {
-		from: config.USERMAIL,
-		to: config.USERMAIL,
+		from: "email@appmf.teste",
+		to: "cliente@appmf.teste",
 		subject: 'Cadastro Realizado com Sucesso',
 		text: 'Parabens seu cadastro foi efetivado',
 	};
